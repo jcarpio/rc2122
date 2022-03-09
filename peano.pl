@@ -25,3 +25,8 @@ Un operador, siguiente: s( )
  suma(0, Y, Y).
  
  suma(s(X), Y, s(R)):-  suma(X, Y, R).
+ 
+ 
+ resta(X, 0, X).
+ resta(X, s(Y), Z):- restar(X, Y, s(Z)).
+ 
