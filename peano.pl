@@ -30,3 +30,9 @@ Un operador, siguiente: s( )
  resta(X, 0, X).
  resta(X, s(Y), Z):- restar(X, Y, s(Z)).
  
+ mul(_, 0, 0).
+ mul(X, s(Y), R):- mul(X, Y, Z),
+                  suma(Z, X, R).
+    
+
+ 
