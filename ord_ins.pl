@@ -43,3 +43,20 @@ insertar_ord(E, [Cab|Resto],[Cab|R]):-
    
 insertar_ord(E, [Cab|Resto],[E,Cab|Resto]):-
   E =< Cab.
+   
+   
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
