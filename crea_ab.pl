@@ -1,10 +1,8 @@
 /*
-
 cuenta_nodos(+Arbol, -NumNodos)
   es cierto si NumNodos unifica con 
   el número de nodos del árbol binario 
   Arbol.
-
 */
 
 cuenta_nodos(nil, 0).
@@ -19,16 +17,15 @@ arbol1(
   
   
 /*
-
 crea_ab(+Lista, -ArbolBinario)
  es cierto si ArbolBinario unifica con
  un árbol binario que contiene los elementos
  de Lista. El árbol resultante es un árbol 
  balanceado.
-
 */
 
-crea_ab(Lista,  ):-
+crea_ab([], nil).
+crea_ab(Lista, a(Raiz, AI, AD) ):-
   length(Lista, L),
   M is L div 2,
   length(L1, M),
