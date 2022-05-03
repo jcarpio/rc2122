@@ -6,6 +6,18 @@
   binario de N nodos con valores desde 
   I hasta N.
   
+  Intervalo
+  
+  +---+---+---+---+---+
+  0   1   2   3   4   5
+  
+  
+  +---+---+
+  0   1   2
+  
+  +---+---+
+  3   4   5
+  
 */
 
   crea_arbol(I, I, nil).
